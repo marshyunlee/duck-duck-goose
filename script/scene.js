@@ -56,13 +56,13 @@ const initScene = async () => {
 	controls.minPolarAngle = Math.PI/2 - 0.5;
 	controls.maxPolarAngle = Math.PI/2 - 0.5;
 	controls.zoomSpeed = 0.3;
-	controls.minZoom = 100;
-	controls.maxZoon = 500;
+	controls.minZoom = 300;
+	controls.maxZoon = 300;
 	controls.enableDamping = true;
-	controls.dampingFactor = 0.2;
+	controls.dampingFactor = 0.25;
 	
 	controls.autoRotate = true;
-	controls.autoRotateSpeed = -5;
+	controls.autoRotateSpeed = -3;
 
 	document.body.appendChild(renderer.domElement);
 }
