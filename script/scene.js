@@ -55,9 +55,9 @@ const initScene = async () => {
 	controls = new THREE.OrbitControls(camera, renderer.domElement);
 	controls.minPolarAngle = Math.PI/2 - 0.5;
 	controls.maxPolarAngle = Math.PI/2 - 0.5;
-	controls.zoomSpeed = 0.4;
-	controls.minDistance = 100;
-	controls.maxDistance = 500;
+	controls.zoomSpeed = 0.3;
+	controls.minZoom = 100;
+	controls.maxZoon = 500;
 	controls.enableDamping = true;
 	controls.dampingFactor = 0.2;
 	
