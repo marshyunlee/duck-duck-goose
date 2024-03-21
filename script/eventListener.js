@@ -55,9 +55,9 @@ var loadListener = async () => {
 		}
 
 		
-		if (camera.fov > 0.2) {
-			camera.fov -= 0.01;
-			camera.updateProjectionMatrix();
-		}
+		// if (camera.fov > 0.2) {
+		// 	camera.fov -= 0.01;
+		// 	camera.updateProjectionMatrix();
+		// }
 	}
 }
