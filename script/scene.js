@@ -23,7 +23,7 @@ const width = window.innerWidth;
 const height = window.innerHeight;
 const aspectRatio = width/height;
 const fieldOfView = 5;
-const nearView = 10;
+const nearView = 100;
 const farView = 2000;
 
 const initScene = async () => {
