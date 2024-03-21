@@ -56,8 +56,8 @@ const initScene = async () => {
 	controls.minPolarAngle = Math.PI/2 - 0.5;
 	controls.maxPolarAngle = Math.PI/2 - 0.5;
 	controls.zoomSpeed = 0.3;
-	controls.minZoom = 300;
-	controls.maxZoon = 300;
+	controls.minZoom = 500;
+	controls.maxZoon = 1000;
 	controls.enableDamping = true;
 	controls.dampingFactor = 0.25;
 	
