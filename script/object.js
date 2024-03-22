@@ -11,7 +11,7 @@ var loadCharacter = async (scene) => {
 		materials.preload();
 		objLoader.setMaterials(materials);
 		objLoader.load('DuckModel_3.obj', (object) => {	
-			object.position.set(-3.7, 6.7, -1)
+			object.position.set(-3.7, 5.7, -3)
 			
 			object.rotation.set(0, Math.PI/2, Math.PI/2);
 			object.scale.setScalar(1);
