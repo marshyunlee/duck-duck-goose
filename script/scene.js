@@ -62,7 +62,7 @@ const initScene = async () => {
 	controls.dampingFactor = 0.3;
 	
 	controls.autoRotate = true;
-	controls.autoRotateSpeed = -3;
+	controls.autoRotateSpeed = -5;
 
 	document.body.appendChild(renderer.domElement);
 }
